@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingImageView">
+        <attr name="anim_auto_start" format="boolean" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+</resources>
