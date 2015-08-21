@@ -223,7 +223,6 @@ public class LoadingImageView extends ImageView {
             case MaskOrientation.TopToBottom:
                 gravity = Gravity.TOP;
                 orientaion = ClipDrawable.VERTICAL;
-                clipDrawable = new ClipDrawable(maskDrawable, Gravity.TOP, ClipDrawable.VERTICAL);
                 break;
             case MaskOrientation.BottomToTop:
             default:
