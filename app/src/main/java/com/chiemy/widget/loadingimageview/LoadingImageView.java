@@ -42,17 +42,10 @@ public class LoadingImageView extends ImageView {
     }
 
     public LoadingImageView(Context context, AttributeSet attrs, int defStyleAttr) {
-        this(context, attrs, defStyleAttr, 0);
-    }
-
-
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public LoadingImageView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
+        super(context, attrs, defStyleAttr);
         init();
         initAttrs(context, attrs);
     }
-
 
     private void initAttrs(Context context, AttributeSet attrs){
         if(attrs == null){
